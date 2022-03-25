@@ -1,0 +1,78 @@
+body{
+    color: #999;
+    background-image:url("Images/dark-pat.jpg");
+    font-family: 'Roboto' , sans-serif;
+    background-size: cover;
+}
+.form_control{
+    
+    min-height: 41px;
+    box-shadow: none;
+    border-color: #e1e1e1;
+    width:100%;
+}
+.form_control:focus{
+    border-color: #9c7438;
+}
+.form_control, .btn{
+    border-radius: 3px;
+}
+.form_header{
+    margin: -30px -30px 20px;
+    padding: 30px 30px 10px;
+    text-align: center;
+    background: #9c7438;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+}
+.form_header h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-family: 'Pacifico', sans-serif;
+}
+.form-header p{
+    margin: 20px 0 15px;
+    font-size: 17px;
+    line-height: normal;
+    font-family: 'Courgette' , sans-serif;
+}
+.signin_form{
+    width: 390px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 0;
+
+}
+.signin_form form{
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f0f0f0;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    padding: 30px;
+}
+.signin_form .form_group{
+    margin-bottom: 20px;
+}
+.signin_form label{
+    font-weight: normal;
+    font-size: 13px;
+}
+.signin_form .btn{
+    font-size: 16px;
+    font-weight: bold;
+    background:#9c7438;
+    border: none;
+    min-width: 200px;
+}
+.signin_form .btn:hover, .signin_form .btn:focus{
+    background: #9c7438 !important;
+    outline:none;
+}
+.signin_form a{
+    color: #9c7438;
+}
+.signin_form a:hover{
+    text-decoration: underline;
+}
